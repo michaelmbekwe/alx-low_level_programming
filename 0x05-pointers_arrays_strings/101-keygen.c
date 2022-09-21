@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - program that generates random valid passwords 101 crackme
