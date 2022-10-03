@@ -1,1 +1,1 @@
-creating a static libraries that contains files
+am creating a static library for my past work
