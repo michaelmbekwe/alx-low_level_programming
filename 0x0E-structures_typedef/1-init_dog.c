@@ -18,10 +18,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->owner = owner;
 	}
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
