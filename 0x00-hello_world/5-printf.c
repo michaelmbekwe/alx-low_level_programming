@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * main - main block
- * return: 0
+ *
+ * Description: 'the program prints the word bellow
+ *
+ * Return: 0
  */
 int main(void)
 {
