@@ -1,1 +1,1 @@
-C programmming is cool
+C programmming is cool with hard work:wq
