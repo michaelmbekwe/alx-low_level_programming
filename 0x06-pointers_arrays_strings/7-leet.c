@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * leet - function
+ * @str: parametre
+ * Return: 0
 
 char *leet(char *str)
 {
@@ -20,7 +24,7 @@ char *leet(char *str)
 				is_mapped = 1;
 				break;
 
-		if (*ptr = leet_mappings[i])
+		if ((*ptr = leet_mappings[i]))
 		(is_mapped = 1);
 		break;
 		}
