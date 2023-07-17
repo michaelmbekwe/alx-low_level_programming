@@ -5,7 +5,7 @@
  *_pow_recursion - is a function that calculate number raised to power
  *@x: is the number
  *@y: is the power raised
- *Returns: 0
+ *Return: 0
  */
 
 int _pow_recursion(int x, int y)
@@ -18,7 +18,7 @@ if (y < 0)
 {
 	return (1);
 }
-	else
+else
 {
 	return (x * _pow_recursion(x, y - 1));
 			}
