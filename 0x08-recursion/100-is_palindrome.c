@@ -10,15 +10,23 @@
 
 int is_palindrome(char *s)
 {
-	int len = strlen(s);
-	int i, j;
+	char *start = s;
+	char *end = s + strlen(s) - 1;
 
-	for (i = 0, j = len - 1; i < j; i++, j--)
+	if (*s == '\0')
 	{
-		if (s[i] != s[j])
-			{
-			return (0); /* characters don't nmatch, not palindrome*/
-			}
+		return (1);
 	}
-	return (1); /* all characters match, it is a palindrome*/
+
+	while (start < end)
+	{
+		if (*start != *end)
+		{
+			return (0);
+		}
+		start++;
+		end--;
+	}
+
+	return (1);
 }
