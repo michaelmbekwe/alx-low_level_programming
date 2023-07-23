@@ -12,16 +12,14 @@ int main(int argc, char *argv[])
 	(void)argc;
 	{
 
-	char *programName = argv[0];
+	/*char *programName = argv[0];*/
 
-	char *lastSlash = strrchr(programName, '/');
+	/*char *lastSlash = strrchr(programName, '/');*/
 
-	if (lastSlash != NULL)
+	if (argc > 0)
 	{
-		programName = lastSlash + 1;
-	}
-
-	printf(" %s\n", programName);
+	printf(" %s\n", argv[0]);
 	}
 	return (0);
+}
 }
