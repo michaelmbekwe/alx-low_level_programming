@@ -5,7 +5,7 @@
  *main - is the entry point
  *@argc: is the argument count
  *@argv: is the argument vector
- *Return: always 0 indicating success
+ *Return: always 0 indicating successful
  */
 int main(int argc, char *argv[])
 {
