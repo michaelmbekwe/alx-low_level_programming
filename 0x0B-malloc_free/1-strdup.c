@@ -9,7 +9,7 @@
 
 char *_strdup(const char *str)
 {
-	char *duplicate
+	char *duplicate;
 
 	if (str == NULL)
 	{
