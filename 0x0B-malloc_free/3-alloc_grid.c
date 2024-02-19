@@ -44,18 +44,3 @@ for (j = 0; j < width; j++)
 	}
 return (grid);
 }
-
-void display_grid(int **grid, int width, int height)
-{
-	int i;
-	int j;
-
-	for (i = 0; i < height; i++)
-    {
-	    for (j = 0; j < width; j++)
-	{
-		printf("%d ", grid[i][j]);
-	}
-	    printf("\n");
-    }
-}
